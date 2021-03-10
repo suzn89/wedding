@@ -283,10 +283,12 @@ h4.inline, h5.inline, h6.inline{
 }
 
 p{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'RIDIBatang', sans-serif;
 	font-size:16px;
 	line-height:27px;
 	margin-bottom:25px;
+	font-weight: normal;
+	word-break: keep-all;
 }
 
 p.lead{
@@ -2787,7 +2789,7 @@ form .has-error .btn-primary{
 /* 13.1 Couple Section							 */
 /* ----------------------------------------------*/
 .photo-name{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'InkLipquid', cursive; 
 	font-size:75px; 
 	color:#FFF; 
 }
@@ -2820,7 +2822,7 @@ form .has-error .btn-primary{
 /* 13.2 Adventure Begin							 */
 /* ----------------------------------------------*/
 #adventure-begin-wrapper{
-	margin-bottom:80px
+	/* margin-bottom:80px */
 }
 
 /* ----------------------------------------------*/
@@ -3070,9 +3072,10 @@ footer .image-divider.fixed-height{
 	margin:auto; 
 	top:0; 
 	bottom:0; 
-	left:0; 
+	left:20px; 
 	right:0; 
 	border-left:1px solid #cbcaca;
+	z-index: -1;
 }
 
 #end-of-story{
@@ -3086,12 +3089,14 @@ footer .image-divider.fixed-height{
 	padding-top:100px; 
 	padding-bottom:30px; 		
 }
-
+#last-row-date-wrapper .vertical-line {
+	left:-4px;
+}
 /* ----------------------------------------------*/
 /* 16.2 Save the Date Section					 */
 /* ----------------------------------------------*/
 #save-date{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'RIDIBatang', cursive; 
 	font-size:54px;
 }
 
@@ -3103,7 +3108,7 @@ footer .image-divider.fixed-height{
 }
 
 #counting{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'RIDIBatang', cursive; 
 	font-size:78px;
 }
 
