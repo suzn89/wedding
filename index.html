@@ -227,7 +227,7 @@
                              <div class="photo-item animation fadeInLeft">
 								
                              		<!--HIS-PHOTO-->																 
-                                	<img data-src="images/groom.jpg" alt="" class="hover-animation image-zoom-in lozad">
+                                	<img src="images/groom.jpg" alt="" class="hover-animation image-zoom-in">
                                             
                                     <!--PHOTO OVERLAY-->
                            			<div class="layer wh95 hidden-black-overlay hover-animation fade-in">
@@ -260,7 +260,7 @@
                              <div class="photo-item animation fadeInRight">
 								
                              		<!--HER-PHOTO-->
-                                	<img data-src="images/bride.jpg" alt="" class="hover-animation image-zoom-in lozad">
+                                	<img src="images/bride.jpg" alt="" class="hover-animation image-zoom-in">
                                             
                                     <!--PHOTO OVERLAY-->
                            			<div class="layer wh95 hidden-black-overlay hover-animation fade-in">
@@ -463,7 +463,7 @@
                         </div>
                     </div> 
 										
-										<div class="gall-slick lazy">
+										<div class="gall-slick">
 											<div class="single"><a href="images/ga000.jpg"><img class="slick-img lozad" data-src="images/thumb/ga000.jpg" alt=""></a></div>																																												
 											<div class="single"><a href="images/ga0000.jpg"><img class="slick-img lozad" data-src="images/thumb/ga0000.jpg" alt=""></a></div>																																												
 											<div class="single"><a href="images/ga001.jpg"><img class="slick-img lozad" data-src="images/thumb/ga001.jpg" alt=""></a></div>																																												
@@ -569,8 +569,7 @@
 				
 				<script>
 					$(function(){
-						$('.gall-slick').slick({
-							lazyLoad: 'ondemand',							
+						$('.gall-slick').slick({													
 							infinite        : true,
 							slidesToShow    : 1,
 							slidesToScroll  : 1,
