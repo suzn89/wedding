@@ -463,18 +463,18 @@
                     </div> 
 										
 										<div class="gall-slick lazy">
-											<div class="single"><a href="images/ga000.jpg" style="background-image: url('images/thumb/ga000.jpg');"></a></div>																																												
-											<div class="single"><a href="images/ga0000.jpg" style="background-image: url('images/thumb/ga0000.jpg');"></a></div>																																												
-											<div class="single"><a href="images/ga001.jpg" style="background-image: url('images/thumb/ga001.jpg');"></a></div>																																												
-											<div class="single"><a href="images/ga002.jpg" style="background-image: url('images/thumb/ga002.jpg');"></a></div>																																												
-											<div class="single"><a href="images/ga003.jpg" style="background-image: url('images/thumb/ga003.jpg');"></a></div>																																												
-											<div class="single"><a href="images/ga004.jpg" style="background-image: url('images/thumb/ga004.jpg');"></a></div>																																												
-											<div class="single"><a href="images/ga005.jpg" style="background-image: url('images/thumb/ga005.jpg');"></a></div>																																												
-											<div class="single"><a href="images/IMG_0641.jpg" style="background-image: url('images/thumb/IMG_0641.jpg');"></a></div>			
-											<div class="single"><a href="images/ga05.jpg" style="background-image: url('images/thumb/ga05.jpg');"></a></div>																																										
+											<div class="single"><a href="images/ga000.jpg"><img class="slick-img lozad" data-src="images/thumb/ga000.jpg" alt=""></a></div>																																												
+											<div class="single"><a href="images/ga0000.jpg"><img class="slick-img lozad" data-src="images/thumb/ga0000.jpg" alt=""></a></div>																																												
+											<div class="single"><a href="images/ga001.jpg"><img class="slick-img lozad" data-src="images/thumb/ga001.jpg" alt=""></a></div>																																												
+											<div class="single"><a href="images/ga002.jpg"><img class="slick-img lozad" data-src="images/thumb/ga002.jpg" alt=""></a></div>																																												
+											<div class="single"><a href="images/ga003.jpg"><img class="slick-img lozad" data-src="images/thumb/ga003.jpg" alt=""></a></div>																																												
+											<div class="single"><a href="images/ga004.jpg"><img class="slick-img lozad" data-src="images/thumb/ga004.jpg" alt=""></a></div>																																												
+											<div class="single"><a href="images/ga005.jpg"><img class="slick-img lozad" data-src="images/thumb/ga005.jpg" alt=""></a></div>																																												
+											<div class="single"><a href="images/IMG_0641.jpg"><img class="slick-img lozad" data-src="images/thumb/IMG_0641.jpg" alt=""></a></div>			
+											<div class="single"><a href="images/ga05.jpg"><img class="slick-img lozad" data-src="images/thumb/ga05.jpg" alt=""></a></div>																																										
 																																																		
-											<div class="single"><a href="images/ga07.jpg" style="background-image: url('images/thumb/ga07.jpg');"></a></div>																																												
-											<div class="single"><a href="images/ga08.jpg" style="background-image: url('images/thumb/ga08.jpg');"></a></div>																																											
+											<div class="single"><a href="images/ga07.jpg"><img class="slick-img lozad" data-src="images/thumb/ga07.jpg" alt=""></a></div>																																												
+											<div class="single"><a href="images/ga08.jpg"><img class="slick-img lozad" data-src="images/thumb/ga08.jpg" alt=""></a></div>																																											
 																																																
 										</div>
                     
@@ -484,7 +484,7 @@
             <!-- END of GALLERY SECTION-->
             <!-- DIVIDER-5 SECTION -->
             <section id="divider-5-section">
-            	<div class="image-divider fixed-height" style="background-image:url('https://images.unsplash.com/photo-1509927083803-4bd519298ac4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); height:550px">
+            	<div class="image-divider fixed-height" style="background-color:#666; height:550px">
                 	
                     <div class="divider-overlay" style="opacity: 0.8;"></div>
 
@@ -616,8 +616,8 @@
         	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 					<script>
 						$( document ).ready(function() {
-							var srcName = $('.slick-lightbox-slick-img').attr('src');
-							$('.slick-lightbox-slick-img').attr('data-src',srcName);
+							var srcName = $('.slick-img').attr('src');
+							$('.slick-img').attr('data-src',srcName);
 							console.log(srcName);
 							const observer = lozad();
 							observer.observe();
