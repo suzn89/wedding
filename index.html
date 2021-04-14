@@ -37,10 +37,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
         <!-- Theme CSS -->
-    	<link href="css/style.css" rel="stylesheet" media="screen">
-			<!-- jQuery -->
-    	<script src="js/jquery-1.11.1.min.js"></script>
-			
+    	<link href="css/style.css" rel="stylesheet" media="screen">		
         <!-- Pace -->
         <script src="js/pace/pace.min.js"></script> 
     	<!-- Bootstrap -->
@@ -228,8 +225,8 @@
                         	<!--PHOTO-ITEM-->
                              <div class="photo-item animation fadeInLeft">
 								
-                             		<!--HIS-PHOTO-->
-                                	<img src="images/groom.jpg" alt="" class="hover-animation image-zoom-in">
+                             		<!--HIS-PHOTO-->																 
+                                	<img data-src="images/groom.jpg" alt="" class="hover-animation image-zoom-in lozad">
                                             
                                     <!--PHOTO OVERLAY-->
                            			<div class="layer wh95 hidden-black-overlay hover-animation fade-in">
@@ -262,7 +259,7 @@
                              <div class="photo-item animation fadeInRight">
 								
                              		<!--HER-PHOTO-->
-                                	<img src="images/bride.jpg" alt="" class="hover-animation image-zoom-in">
+                                	<img data-src="images/bride.jpg" alt="" class="hover-animation image-zoom-in lozad">
                                             
                                     <!--PHOTO OVERLAY-->
                            			<div class="layer wh95 hidden-black-overlay hover-animation fade-in">
@@ -412,7 +409,7 @@
                     <div class="row">
                     	<!-- EVENTS CAROUSEL -->
                     	<div id="" class=animation fadeInUp" style="text-align: center;">
-                       <img src="images/bus.jpg" alt="" style="width: 100%; max-width: 600px;">
+                       <img data-src="images/bus.jpg" class="lozad" alt="" style="width: 100%; max-width: 600px;">
                                 
                         </div><!--END of EVENTS CAROUSEL-->   
                     </div>
@@ -616,7 +613,7 @@
 						});
 					});
 				</script>
-        	<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+        	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 					<script>
 						$( document ).ready(function() {
 							var srcName = $('.slick-lightbox-slick-img').attr('src');
@@ -626,6 +623,6 @@
 							observer.observe();
 						});						
 					
-					</script> -->
+					</script>
 	</body>
 </html>
