@@ -2459,6 +2459,9 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 }
 .gall-slick img {	
 		width: 100%;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
 }
 .gall-slick .single {
 	width: 100%;
@@ -2476,6 +2479,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	padding: 0 8px;
 	background-size:cover;
 	background-position:center;
+	position:relative;
 }
 .slick-lightbox-slick-img {
 	max-width: 100% !important;
